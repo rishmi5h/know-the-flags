@@ -298,12 +298,15 @@ export default function App() {
       <header>
         <h1> Know the Flags</h1>
       </header>
-      <input
-        placeholder="Enter flag emoji here or click on any flag"
-        onChange={inputText}
-      ></input>
-      <h3>{userInput}</h3>
-      <h3>{meaning}</h3>
+      <div className="stick">
+        <input
+          placeholder="Enter flag emoji here or click on any flag"
+          onChange={inputText}
+        ></input>
+        <h3>{userInput}</h3>
+        <h3>{meaning}</h3>
+      </div>
+
       <div className="flagParent">
         {knownFlags.map((emoji) => {
           return (
@@ -318,7 +321,7 @@ export default function App() {
           );
         })}
       </div>
-      <h3>{meaning}</h3>
+
       <footer>
         Made with ❤️ by <a href="https://github.com/rishimish">@rishmish</a>
       </footer>

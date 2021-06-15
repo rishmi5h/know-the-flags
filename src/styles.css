@@ -18,7 +18,13 @@ h1 {
   color: white;
   padding: 1rem;
 }
-
+.stick {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: white;
+  padding-bottom: 1rem;
+}
 input {
   margin-top: 2rem;
   padding: 1rem;
