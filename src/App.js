@@ -318,6 +318,7 @@ export default function App() {
           );
         })}
       </div>
+      <h3>{meaning}</h3>
       <footer>
         Made with ❤️ by <a href="https://github.com/rishimish">@rishmish</a>
       </footer>
