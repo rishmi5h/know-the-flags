@@ -271,7 +271,7 @@ var flagDictionary = {
   "🏴󠁧󠁢󠁳󠁣󠁴󠁿": "Scotland",
   "🏴󠁧󠁢󠁷󠁬󠁳󠁿": "Wales",
   "🏳️‍⚧️": "Transgender Flag",
-  "": ""
+  "": "",
 };
 
 var knownFlags = Object.keys(flagDictionary);
@@ -294,24 +294,24 @@ export default function App() {
     setMeaning(flagDictionary[emoji]);
   }
   return (
-    <div className="App">
+    <div className='App'>
       <header>
         <h1> Know the Flags</h1>
       </header>
-      <div className="stick">
+      <div className='stick'>
         <input
-          placeholder="Enter flag emoji here or click on any flag"
+          placeholder='Enter flag emoji here or click on any flag'
           onChange={inputText}
         ></input>
         <h3>{userInput}</h3>
         <h3>{meaning}</h3>
       </div>
 
-      <div className="flagParent">
+      <div className='flagParent'>
         {knownFlags.map((emoji) => {
           return (
             <span
-              className="flagss"
+              className='flagss'
               onClick={() => emojiClickHandler(emoji)}
               key={emoji}
               style={{ padding: "1rem", fontSize: "2rem", cursor: "pointer" }}
@@ -323,7 +323,7 @@ export default function App() {
       </div>
 
       <footer>
-        Made with ❤️ by <a href="https://github.com/rishimish">@rishmish</a>
+        Made with ❤️ by <a href='https://github.com/rishmi5h'>@rishmish</a>
       </footer>
     </div>
   );

@@ -37,5 +37,5 @@
 
 ## Contact
 
-- GitHub [@rishimish](https://{github.com/rishimish})
-- Twitter [@rishabhmishrabu](https://{twitter.com/rishabhmishrabu})
+- GitHub [@rishmi5h](https://{github.com/rishmi5h})
+- Linkedin [@rishmi5h](https://{linkedin.com/in/rishmi5h/})
