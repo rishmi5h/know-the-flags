@@ -323,7 +323,7 @@ export default function App() {
       </div>
 
       <footer>
-        Made with ❤️ by <a href='https://github.com/rishmi5h'>@rishmish</a>
+        Made with ❤️ by <a href='https://github.com/rishmi5h'>@rishmi5h</a>
       </footer>
     </div>
   );
